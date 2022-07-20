@@ -23,17 +23,17 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
 
-        rb1 = (RadioButton) findViewById(R.id.radio1);
-        rb2 = (RadioButton) findViewById(R.id.radio2);
-        rb3 = (RadioButton) findViewById(R.id.radio3);
-        rb4 = (RadioButton) findViewById(R.id.radio4);
-        rb5 = (RadioButton) findViewById(R.id.radio5);
+        rb1 = (RadioButton) findViewById(R.id.starOne);
+        rb2 = (RadioButton) findViewById(R.id.starTwo);
+        rb3 = (RadioButton) findViewById(R.id.starThree);
+        rb4 = (RadioButton) findViewById(R.id.starFour);
+        rb5 = (RadioButton) findViewById(R.id.starFive);
         rg = (RadioGroup) findViewById(R.id.rgStars);
         btnCancel = (Button) findViewById(R.id.btnCancel);
         btnDelete = (Button) findViewById(R.id.btnDelete);
         btnUpdate = (Button) findViewById(R.id.btnUpdate);
         etID = (EditText) findViewById(R.id.etID);
-        etTitle = (EditText) findViewById(R.id.etTitle);
+        etTitle = (EditText) findViewById(R.id.etSong);
         etSingers = (EditText) findViewById(R.id.etSingers);
         etYear = (EditText) findViewById(R.id.etYear);
 
